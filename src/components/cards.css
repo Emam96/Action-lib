@@ -1,0 +1,16 @@
+.CARDS {
+
+/* border: red solid; */
+width: 80%;
+margin: 3rem auto;
+display: flex;
+justify-content: space-between;
+
+
+}
+
+.card-img-top {
+
+height: 400px;
+
+}
