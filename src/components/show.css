@@ -1,0 +1,65 @@
+.SIDE {
+  margin: 10rem auto;
+  width: 80%;
+  height: 100vh;
+  position: relative;
+  /* border:red solid; */
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  
+}
+
+iframe {
+  width: 40%;
+  height: 85vh;
+  margin-top: 5rem;
+  /* position: absolute; */
+  /* float: left; */
+}
+
+form {
+  overflow: auto;
+  /* border:red solid; */
+  display: flex;
+  width: 50%;
+  height: 85vh;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.form-check-input {
+  transform: scale(108%);
+  /* border-color: red; */
+  border-width: 5px;
+  background-color: transparent;
+  background-size: cover;
+
+  width: 11rem;
+  height: 11rem;
+  transition: 0.3s;
+}
+
+.form-check-input:hover {
+  border-color: #e42121b9;
+  transform: scale(107%);
+  border-radius: 65px;
+}
+
+.form-check-input:checked {
+  border-width: 3rem;
+  opacity: 0.1;
+}
+.form-check-input:active {
+    border-color: #e42121b9;
+  transform: scale(107%);
+  border-radius: 65px;
+  }
+#hoy {
+
+
+
+
+}

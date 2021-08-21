@@ -1,22 +1,44 @@
 .CARDS {
-
-/* border: red solid; */
-width: 80%;
-margin: 3rem auto;
-display: flex;
-justify-content: space-around;
-
-
+  /* border: red solid; */
+  width: 80%;
+  margin: 3rem auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .CARD {
-
-    box-shadow: 0px 3px 10px #00000046;
-border-radius: 6PX;
+  height: 25rem;
+  box-shadow: 0px 3px 10px #00000046;
+  border-radius: 6px;
+  color: tomato;
+  font-weight: bolder;
 }
 
 .card-img-top {
+  height: 400px;
+}
 
-height: 400px;
+#ol {
+  font-family: sans-serif;
+  font-size: 1.5pc;
+  float: left;
+  margin-left: 10rem;
+}
 
+.btn {
+  background-color: red;
+  border: white solid;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  transform: scale(110%);
+  /* border: red solid; */
+  /* border-width: 3px; */
+  color: white;
+}
+
+.btn:active {
+  transform: scale(100%);
 }
